@@ -23,6 +23,3 @@ def index():
             image = Image.open(io.BytesIO(file.read()))
             text = pytesseract.image_to_string(image)
     return render_template('index.html', extracted_text=text)
-
-if __name__ == '__main__':
-    app.run(debug=True)
