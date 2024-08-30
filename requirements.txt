@@ -1,3 +1,2 @@
 Flask == 3.0.3
 Werkzeug == 3.0.4
-Tesseract==0.2.0
